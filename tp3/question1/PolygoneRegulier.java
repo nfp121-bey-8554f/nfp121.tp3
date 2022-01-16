@@ -45,7 +45,7 @@ public class PolygoneRegulier {
 
     public int hashCode() {
         return nombreDeCotes * 10000 + longueurDuCote;
-        // ou bien return toString().hashCode(); // ou
+        
     }
 
     public String toString() {

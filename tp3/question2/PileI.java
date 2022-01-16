@@ -11,8 +11,9 @@ public interface PileI {
     public Object depiler() throws PileVideException;
   
     public Object sommet() throws PileVideException;
-    public int capacite();
+    
     public int taille();
+    public int capacite();
     public boolean estVide();
     public boolean estPleine();
     
